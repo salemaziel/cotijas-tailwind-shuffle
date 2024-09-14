@@ -39,3 +39,5 @@
 .skewed-bottom-left .radius-for-skewed {
     border-bottom-left-radius: 6rem;
 }
+
+@tailwind variants;
