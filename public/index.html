@@ -1,36 +1,965 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Cotijas Mexican Grill &amp; Seafood - Fairmount St San Diego CA</title>
-    <meta charset="utf-8">
-    <meta name="keywords" content="menu, food menu, mexican food, mexican cuisine, mexican, mexican grill, seafood, mariscos, san diego">
-        <meta property="og:description" content="Mexican Grill and Seafood in San Diego, California">
-        <meta property="og:title" content="Menu - Cotijas Mexican Grill &amp; Seafood - San Diego">
-        <meta name="description" content="Menu for Cotijas Mexican Grill and Seafood in San Diego, California">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Pacifico:400|Poppins:100,200,300,400,500,600,700,800,900&amp;subset=latin">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap">
-    <link rel="stylesheet" href="css/tailwind/tailwind.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="shuffle-for-tailwind.png">
-    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js" defer></script>
-</head>
-<body class="antialiased bg-body text-body font-body">
-    <div class="relative">
-                
-      <section class="bs-section-dragged " x-data="{ mobileNavOpen: false }">  <nav class="relative px-6 py-6 flex justify-between items-center text-black dark:bg-gray-900 dark:text-gray-100 dark:text-white hover:text-red-600 bg-amber-500 rounded-br-xl rounded-bl-xl lg:rounded-none shadow-lg lg:shadow-none">    <a class="text-white text-3xl font-bold leading-none" href="#">      <img class="h-12" src="images/logo.png" alt="" width="auto">    </a>    <div class="lg:hidden">      <button x-on:click="mobileNavOpen = !mobileNavOpen" class="flex items-center p-3 text-gray-100">        <svg class="block h-6 w-6 fill-current" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">          <title>Mobile menu</title>          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>        </svg>      </button>    </div>    <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6 dark:text-gray-100 text-gray-100 font-medium">      <li><a class="text-sm hover:text-red-600" href="" style="cursor: pointer !important; user-select: none !important;">Home</a></li>      <li class="text-red-600">        <svg class="w-4 h-4 current-fill" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"></path>        </svg>      </li>      <li><a class="text-sm hover:text-red-600" href="#about">About</a></li>      <li class="text-red-600">        <svg class="w-4 h-4 current-fill" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"></path>        </svg>      </li>      <li><a class="text-sm hover:text-red-600" href="#">Location</a></li>      <li class="text-red-600">        <svg class="w-4 h-4 current-fill" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"></path>        </svg>      </li>      <li><a class="text-sm hover:text-red-600" href="#">Specials</a></li>    </ul>    <a class="hidden lg:inline-block py-2 px-6 text-sm text-white font-bold rounded-l-xl rounded-t-xl transition duration-200 bg-red-600 hover:bg-red-700" href="#">Order Online</a>  </nav>  <div :class="{ 'hidden': !mobileNavOpen }" class="fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50 hidden">    <div x-on:click="mobileNavOpen = !mobileNavOpen" class="fixed inset-0 bg-gray-100 opacity-25"></div>    <nav class="relative flex flex-col py-6 px-6 h-full w-full bg-white border-r overflow-y-auto">      <div class="flex items-center mb-8">        <a class="mr-auto text-3xl font-bold leading-none" href="#">          <img class="h-10" src="images/logo.png" alt="" width="auto">        </a>        <button x-on:click="mobileNavOpen = !mobileNavOpen">          <svg class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>          </svg>        </button>      </div>      <div>        <ul>          <li class="mb-1"><a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-purple-50 hover:text-purple-600 rounded" href="#">Home</a></li>          <li class="mb-1"><a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-purple-50 hover:text-purple-600 rounded" href="#">Menu</a></li>          <li class="mb-1"><a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-purple-50 hover:text-purple-600 rounded" href="#">Our Story</a></li>          <li class="mb-1"><a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-purple-50 hover:text-purple-600 rounded" href="#">Order Online</a></li>        </ul>      </div>      <div class="mt-auto">        <div class="pt-6 removed"><a class="inline-block mb-3 lg:mb-0 lg:mr-0 w-full lg:w-full py-2 px-6 leading-loose bg-red-600 hover:bg-red-800 text-white font-semibold text-center transition duration-200 rounded-xl lg:rounded-br-none" href="#">Create Account</a></div>        <p class="my-4 text-xs text-center text-gray-400">          <span>© 2024 All rights reserved.</span>        </p>        <div class="text-center">          <a class="inline-block px-1" href="#">            <img src="atis-assets/social/facebook-purple.svg" alt="">          </a>          <a class="inline-block px-1" href="#">            <img src="atis-assets/social/twitter-purple.svg" alt="">          </a>          <a class="inline-block px-1" href="#">            <img src="atis-assets/social/instagram-purple.svg" alt="">          </a>        </div>      </div>    </nav>  </div></section>
-                
-      <section class="relative bg-gray-50 dark:bg-gray-900 " x-data="{ mobileNavOpen: false }">  <div class="relative pt-12 lg:pt-20 pb-10 lg:pb-8 z-10">    <div class="container mx-auto px-4">      <div class="flex flex-wrap -mx-4">        <div class="w-full lg:w-1/2 px-4 mb-12 lg:mb-0 flex items-center">          <div class="w-full text-center lg:text-left">            <div class="max-w-md mx-auto lg:mx-0"></div>            <div class="max-w-sm mx-auto lg:mx-0 max-w-md">              <h2 class="mb-3 text-4xl lg:text-5xl font-bold font-heading text-black dark:text-white">                <span class="text-red-600 w-full">Cotijas</span>                <br>                <span class="text-black dark:text-white">                  Mexican Grill                  <br>                  &amp; Seafood                </span>              </h2>              <div class="flex flex-wrap -mx-4 md:mb-0 mb-4">                <div class="w-full md:w-1/2 md:mb-0 mb-2 px-2">                  <p class="text-gray-400 leading-loose dark:text-gray-100 mb-4 lg:mb-6">                    3595 Fairmount Ave                    <br>                    San Diego, CA, 92105                  </p>                </div>                <div class="w-full md:w-1/2 mb-4 md:mb-0 px-2">                  <p class="mb-0 text-gray-400 leading-loose dark:text-gray-100 mb-4">                    Mon - Thu: 8am - 10pm                    <br>                    Fri - Sun: 8am - 11pm                  </p>                </div>              </div>              <div class="justify-center text-center"><a class="inline-block mb-3 lg:mb-0 lg:mr-0 w-full lg:w-full py-2 px-6 leading-loose bg-red-600 hover:bg-red-800 text-white font-semibold text-center transition duration-200 rounded-xl lg:rounded-br-none" href="#">Order Online</a></div>            </div>          </div>        </div>        <div class="w-full lg:w-1/2 px-4">          <div class="flex flex-wrap lg:mb-4 lg:ml-6">            <img class="w-full md:w-1/2 lg:w-1/3 h-64 p-2 object-cover rounded-4xl lg:rounded-br-none" src="images/Camarones-a-la-diabla-jpg-1723801184194.webp" alt="">            <img class="w-full md:w-1/2 lg:w-2/3 h-64 p-2 object-cover rounded-4xl lg:rounded-bl-none sm:block hidden" src="images/square-PXL-20240726-235637047-MP-2000x.jpg" alt="">          </div>          <div class="flex flex-wrap lg:mb-4 lg:mr-6">            <img class="w-full md:w-1/2 lg:w-2/3 h-64 p-2 object-cover rounded-4xl lg:rounded-br-none" src="images/Beer-buckets.jpg" alt="">            <img class="w-full md:w-1/2 lg:w-1/3 h-64 p-2 object-cover rounded-4xl lg:rounded-bl-none" src="images/Large-birria-tacos.jpg" alt="">          </div>        </div>      </div>    </div>  </div>  <img class="hidden lg:block dark:lg:hidden absolute inset-0 w-full" src="atis-assets/background/lines.svg" alt="">  <div :class="{ 'hidden': !mobileNavOpen }" class="hidden fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50">    <div x-on:click="mobileNavOpen = !mobileNavOpen" class="fixed inset-0 bg-gray-800 opacity-25"></div>    <nav class="relative flex flex-col py-6 px-6 h-full w-full bg-white border-r overflow-y-auto">      <div class="flex items-center mb-8">        <a class="mr-auto text-3xl font-bold leading-none" href="#">          <img class="h-10" src="atis-assets/logo/atis/atis-mono-black.svg" alt="" width="auto">        </a>        <button x-on:click="mobileNavOpen = !mobileNavOpen">          <svg class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>          </svg>        </button>      </div>      <div>        <ul>          <li class="mb-1"><a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded" href="#">Start</a></li>          <li class="mb-1"><a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded" href="#">About Us</a></li>          <li class="mb-1"><a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded" href="#">Services</a></li>          <li class="mb-1"><a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded" href="#">Platform</a></li>          <li class="mb-1"><a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded" href="#">Testimonials</a></li>        </ul>      </div>      <div class="mt-auto">        <div class="pt-6"><a class="block px-4 py-3 mb-3 leading-loose text-xs text-center font-semibold leading-none bg-gray-50 hover:bg-gray-100 rounded-l-xl rounded-t-xl" href="#">Sign In</a><a class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-green-600 hover:bg-green-700 rounded-l-xl rounded-t-xl" href="#">Sign Up</a></div>        <p class="my-4 text-xs text-center text-gray-400">          <span>Cotijas © 2024 All rights reserved.</span>        </p>        <div class="text-center">          <a class="inline-block px-1" href="#">            <img src="atis-assets/social/facebook.svg" alt="">          </a>          <a class="inline-block px-1" href="#">            <img src="atis-assets/social/twitter.svg" alt="">          </a>          <a class="inline-block px-1" href="#">            <img src="atis-assets/social/instagram.svg" alt="">          </a>        </div>      </div>    </nav>  </div></section>
-                
-      <section id="about" class="dark:bg-gray-900 lg:py-20 py-10 pt-10 pb-20 bg-gray-50">  <div class="container mx-auto px-4">    <div class="flex flex-wrap items-center justify-center mx-auto">      <div class="w-full lg:w-1/2 px-4 order-1 lg:order-0">        <h2 class="mb-6 text-4xl md:text-5xl dark:text-white text-black font-heading font-mono text-left md:text-center">Welcome to Cotijas Mexican Grill and Seafood</h2>        <p class="mb-8 text-gray-500 dark:text-gray-100 leading-loose">As a family owned restaurant in San Diego, Cotijas offers a dynamic and authentic dining experience for lovers of Mexican cuisine. Our menu features a wide selection of traditional Mexican dishes, including tacos, burritos, fajitas, and enchiladas, as well as fresh seafood dishes such as ceviche, fish tacos, and shrimp cocktails. Each dish is prepared using only the freshest ingredients, sourced from local suppliers whenever possible.         </p>        <p class="mb-8 text-gray-500 dark:text-gray-100 leading-loose">          At Cotijas, we pride ourselves on providing exceptional customer service and creating a welcoming environment for families and friends to gather and enjoy a delicious meal. Our restaurant is decorated with vibrant colors and traditional Mexican</p>        <span class="inline-block w-full py-2 px-6 bg-red-600 hover:bg-red-700 text-white font-bold leading-loose transition duration-200 text-center justify-center rounded-xl lg:rounded-br-none" href="#">Order Now</span>      </div>      <div class="w-full lg:w-1/2 px-4 order-0 lg:order-1 mb-8 lg:mb-0 hidden lg:block">        <img src="images/square-PXL-20240726-235637047-MP-2000x.jpg" alt="" class="object-cover rounded-4xl lg:rounded-bl-none hidden lg:block">      </div>    </div>  </div></section>
-                
-      <section class="relative">  <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveaspectratio="none" class="absolute top-0 left-0" style="z=-1;">    <defs>      <pattern id="pattern" width="32" height="64" patternunits="userSpaceOnUse">        <path d="M0 28h20V16h-4v8H4V4h28v28h-4V8H8v12h4v-8h12v20H0v-4zm12 8h20v4H16v24H0v-4h12V36zm16 12h-4v12h8v4H20V44h12v12h-4v-8zM0 36h8v20H0v-4h4V40H0v-4z" class="fill-red-600 dark:fill-red-300" fill-opacity="0.2" fill-rule="evenodd"></path>      </pattern>    </defs>    <rect width="100%" height="100%" class="fill-amber-500 dark:fill-[#111827]"></rect><rect width="100%" height="100%" fill="url(#pattern)"></rect>  </svg>  <div class="container mx-auto py-4 lg:py-8">    <div class="overflow-hidden my-0 pb-6 max-w-screen-lg justify-center mx-auto border-none h-full lg:w-3/4 px-4 w-full">      <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2048.2222241727227!2d-117.10182485206931!3d32.74575493125262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9541492b869ab%3A0x88e5ef22dc35c99c!2sCotija's%20Mex%20Grill%20and%20Seafood!5e0!3m2!1sen!2sus!4v1691640682123!5m2!1sen!2sus" rel="nofollow noreferer" class="overflow-hidden my-0 px-2 pb-6 w-3/4 max-w-screen-lg justify-center mx-auto rounded-3xl h-full" style="box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; filter: drop-shadow(rgba(0, 0, 0, 0.6) 2px 2px 4px);">        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2048.2222241727227!2d-117.10182485206931!3d32.74575493125262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9541492b869ab%3A0x88e5ef22dc35c99c!2sCotija's%20Mex%20Grill%20and%20Seafood!5e0!3m2!1sen!2sus!4v1691640682123!5m2!1sen!2sus" loading="lazy" width="100%" height="100%" class="block p-0 mx-auto mt-6 rounded-3xl mb-6 w-full align-middle border-0 border-gray-200 border-solid h-full max-h-96" style="height: 50vh"></iframe>        <div class="flex items-center p-5 border-0 bg-white dark:bg-[#111827] rounded-3xl border-gray-200 border-solid">          <i class="p-5 mr-5 italic rounded-xl border-0 border-gray-200 border-solid bg-zinc-100 dark:bg-zinc-300">            <svg width="28" height="28" viewbox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" class="block italic align-middle border-0 border-gray-200 border-solid">              <path d="M14 1.75C11.4482 1.75301 9.00181 2.76804 7.19742 4.57242C5.39304 6.37681 4.37801 8.82322 4.375 11.375C4.37194 13.4603 5.05311 15.4891 6.314 17.15C6.314 17.15 6.5765 17.4956 6.61938 17.5455L14 26.25L21.3841 17.5411C21.4226 17.4948 21.686 17.15 21.686 17.15L21.6869 17.1474C22.9471 15.4872 23.628 13.4594 23.625 11.375C23.622 8.82322 22.607 6.37681 20.8026 4.57242C18.9982 2.76804 16.5518 1.75301 14 1.75ZM14 14.875C13.3078 14.875 12.6311 14.6697 12.0555 14.2851C11.4799 13.9006 11.0313 13.3539 10.7664 12.7144C10.5015 12.0749 10.4322 11.3711 10.5673 10.6922C10.7023 10.0133 11.0356 9.38961 11.5251 8.90013C12.0146 8.41064 12.6383 8.0773 13.3172 7.94225C13.9961 7.8072 14.6999 7.87651 15.3394 8.14142C15.9789 8.40633 16.5256 8.85493 16.9101 9.4305C17.2947 10.0061 17.5 10.6828 17.5 11.375C17.4988 12.3029 17.1297 13.1925 16.4736 13.8486C15.8175 14.5047 14.9279 14.8738 14 14.875Z" fill="#FD2F25" class="italic border-0 border-gray-200 border-solid"></path>            </svg>          </i>          <span class="font-medium border-0 border-gray-200 text-black dark:text-white border-solid">3695 Fairmount Ave, San Diego, CA 92105</span>        </div>      </a>    </div>  </div></section>
-                
-      <section id="featured-specials" class="pt-12 m-auto leading-6 text-gray-900 bg-white dark:text-gray-100 dark:bg-gray-900">  <h3 class="justify-start p-5 mx-5 mt-0 mb-5 text-4xl text-center text-gray-800 lg:mx-40 lg:px-20 md:mx-20 md:px-10 dark:text-white font-mono leading-loose font-heading" style=" animation-fill-mode: both; animation-duration: 1000ms; animation-delay: 0ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-66772924826895-1; ">Featured Specials</h3>  <div class="pb-10 overflow-x-scroll leading-6 text-gray-900 opacity-100 bg-red-600 pt-10 dark:bg-[#111827]" style=" animation-fill-mode: both; animation-duration: 1000ms; animation-delay: 0ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-66772924826895-1; ">    <div class="flex ml-10 text-gray-900 flex-nowrap lg:ml-40 md:ml-20">      <div class="inline-block px-3">        <div id="card" class="w-64 h-auto max-w-xs overflow-hidden duration-300 ease-in-out bg-white rounded-lg" style=" box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; transition-property: box-shadow; ">          <img src="images/Large-birria-tacos.jpg" alt="featured special 1" class="block w-full h-auto max-w-full align-middle rounded-t-lg">          <div class="w-full px-5 mx-auto my-5 font-bold text-center">            <p class="mx-0 mt-0 mb-3">Featured Food 1</p>            <p class="mx-0 mt-0 mb-4 text-emerald-800">$9.99</p>            <p class="m-0">Ultrices mi tempus imperdiet nulla malesuada. Nec ultrices dui sapien eget mi proin sed libero. Orci nulla pellentesque dignissim enim sit amet venenatis.</p>          </div>        </div>      </div>      <div class="inline-block px-3">        <div id="card" class="w-64 h-auto max-w-xs overflow-hidden duration-300 ease-in-out bg-white rounded-lg" style=" box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; transition-property: box-shadow; ">          <img src="images/Camarones-a-la-diabla-jpg-1723801184194.webp" alt="featured special 1" class="block w-full h-auto max-w-full align-middle rounded-t-lg">          <div class="w-full px-5 mx-auto my-5 font-bold text-center">            <p class="mx-0 mt-0 mb-3">Featured Food 1</p>            <p class="mx-0 mt-0 mb-4 text-emerald-800">$9.99</p>            <p class="m-0">Ultrices mi tempus imperdiet nulla malesuada. Nec ultrices dui sapien eget mi proin sed libero. Orci nulla pellentesque dignissim enim sit amet venenatis.</p>          </div>        </div>      </div>      <div class="inline-block px-3">        <div id="card" class="w-64 h-auto max-w-xs overflow-hidden duration-300 ease-in-out bg-white rounded-lg" style=" box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; transition-property: box-shadow; ">          <img src="images/Large-birria-tacos.jpg" alt="featured special 1" class="block w-full h-auto max-w-full align-middle rounded-t-lg">          <div class="w-full px-5 mx-auto my-5 font-bold text-center">            <p class="mx-0 mt-0 mb-3">Featured Food 1</p>            <p class="mx-0 mt-0 mb-4 text-emerald-800">$9.99</p>            <p class="m-0">Ultrices mi tempus imperdiet nulla malesuada. Nec ultrices dui sapien eget mi proin sed libero. Orci nulla pellentesque dignissim enim sit amet venenatis.</p>          </div>        </div>      </div>      <div class="inline-block px-3">        <div id="card" class="w-64 h-auto max-w-xs overflow-hidden duration-300 ease-in-out bg-white rounded-lg" style=" box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; transition-property: box-shadow; ">          <img src="images/Beer-buckets.jpg" alt="featured special 1" class="block w-full h-auto max-w-full align-middle rounded-t-lg">          <div class="w-full px-5 mx-auto my-5 font-bold text-center">            <p class="mx-0 mt-0 mb-3">Featured Food 1</p>            <p class="mx-0 mt-0 mb-4 text-emerald-800">$9.99</p>            <p class="m-0">Ultrices mi tempus imperdiet nulla malesuada. Nec ultrices dui sapien eget mi proin sed libero. Orci nulla pellentesque dignissim enim sit amet venenatis.</p>          </div>        </div>      </div>      <div class="inline-block px-3">        <div id="card" class="w-64 h-auto max-w-xs overflow-hidden duration-300 ease-in-out bg-white rounded-lg" style=" box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; transition-property: box-shadow; ">          <img src="images/Large-birria-tacos.jpg" alt="featured special 1" class="block w-full h-auto max-w-full align-middle rounded-t-lg">          <div class="w-full px-5 mx-auto my-5 font-bold text-center">            <p class="mx-0 mt-0 mb-3">Featured Food 1</p>            <p class="mx-0 mt-0 mb-4 text-emerald-800">$9.99</p>            <p class="m-0">Ultrices mi tempus imperdiet nulla malesuada. Nec ultrices dui sapien eget mi proin sed libero. Orci nulla pellentesque dignissim enim sit amet venenatis.</p>          </div>        </div>      </div>      <div class="inline-block px-3">        <div id="card" class="w-64 h-auto max-w-xs overflow-hidden duration-300 ease-in-out bg-white rounded-lg" style=" box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; transition-property: box-shadow; ">          <img src="images/Camarones-a-la-diabla-jpg-1723801184194.webp" alt="featured special 1" class="block w-full h-auto max-w-full align-middle rounded-t-lg">          <div class="w-full px-5 mx-auto my-5 font-bold text-center">            <p class="mx-0 mt-0 mb-3">Featured Food 1</p>            <p class="mx-0 mt-0 mb-4 text-emerald-800">$9.99</p>            <p class="m-0">Ultrices mi tempus imperdiet nulla malesuada. Nec ultrices dui sapien eget mi proin sed libero. Orci nulla pellentesque dignissim enim sit amet venenatis.</p>          </div>        </div>      </div>      <div class="inline-block px-3">        <div id="card" class="w-64 h-auto max-w-xs overflow-hidden duration-300 ease-in-out bg-white rounded-lg" style=" box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; transition-property: box-shadow; ">          <img src="images/Beer-buckets.jpg" alt="featured special 1" class="block w-full h-auto max-w-full align-middle rounded-t-lg">          <div class="w-full px-5 mx-auto my-5 font-bold text-center">            <p class="mx-0 mt-0 mb-3">Featured Food 1</p>            <p class="mx-0 mt-0 mb-4 text-emerald-800">$9.99</p>            <p class="m-0">Ultrices mi tempus imperdiet nulla malesuada. Nec ultrices dui sapien eget mi proin sed libero. Orci nulla pellentesque dignissim enim sit amet venenatis.</p>          </div>        </div>      </div>      <div class="inline-block px-3">        <div id="card" class="w-64 h-auto max-w-xs overflow-hidden duration-300 ease-in-out bg-white rounded-lg" style=" box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; transition-property: box-shadow; ">          <img src="images/Large-birria-tacos.jpg" alt="featured special 1" class="block w-full h-auto max-w-full align-middle rounded-t-lg">          <div class="w-full px-5 mx-auto my-5 font-bold text-center">            <p class="mx-0 mt-0 mb-3">Featured Food 1</p>            <p class="mx-0 mt-0 mb-4 text-emerald-800">$9.99</p>            <p class="m-0">Ultrices mi tempus imperdiet nulla malesuada. Nec ultrices dui sapien eget mi proin sed libero. Orci nulla pellentesque dignissim enim sit amet venenatis.</p>          </div>        </div>      </div>    </div>  </div></section>
-                
-      <section>  <div class="skew skew-top mr-for-radius">    <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none">      <polygon fill="currentColor" points="0 0 10 10 0 10"></polygon>    </svg>  </div>  <div class="skew skew-top ml-for-radius">    <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none">      <polygon fill="currentColor" points="0 10 10 0 10 10"></polygon>    </svg>  </div>  <div class="py-20 radius-for-skewed dark:bg-gray-900 bg-amber-500">    <div class="max-w-md mx-auto text-center">      <a class="inline-block mb-6 mx-auto text-3xl font-bold leading-none" href="#">        <img class="h-12" src="images/logo.png" alt="" width="auto">      </a>      <p class="mb-6 text-sm font-semibold dark:text-gray-100 text-white">Cotijas Mexican Grill &amp; Seafood © 2024. All rights reserved.</p>      <div class="flex space-x-2 lg:space-x-4 justify-center">        <a href="#">          <img src="atis-assets/social/facebook-purple.svg" alt="">        </a>        <a href="#">          <img src="atis-assets/social/twitter-purple.svg" alt="">        </a>        <a href="#">          <img src="atis-assets/social/instagram-purple.svg" alt="">        </a>      </div>    </div>  </div>  <div class="skew skew-bottom mr-for-radius">    <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none">      <polygon fill="currentColor" points="0 0 10 0 0 10"></polygon>    </svg>  </div>  <div class="skew skew-bottom ml-for-radius">    <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none">      <polygon fill="currentColor" points="0 0 10 0 10 10"></polygon>    </svg>  </div></section>
-    </div>
-</body>
-</html>
+	<head>
+		<title>
+			Cotijas Mexican Grill &amp; Seafood - Fairmount St San Diego CA
+		</title>
+		<meta charset="utf-8" />
+		<meta
+			name="keywords"
+			content="menu, food menu, mexican food, mexican cuisine, mexican, mexican grill, seafood, mariscos, san diego"
+		/>
+		<meta
+			property="og:description"
+			content="Mexican Grill and Seafood in San Diego, California"
+		/>
+		<meta
+			property="og:title"
+			content="Menu - Cotijas Mexican Grill &amp; Seafood - San Diego"
+		/>
+		<meta
+			name="description"
+			content="Menu for Cotijas Mexican Grill and Seafood in San Diego, California"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Pacifico:400|Poppins:100,200,300,400,500,600,700,800,900&amp;subset=latin"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+		/>
+		<link
+			rel="stylesheet"
+			href="css/tailwind/tailwind.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="css/main.css"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="shuffle-for-tailwind.png"
+		/>
+		<script
+			src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js"
+			defer
+		></script>
+	</head>
+	<body class="antialiased bg-body text-body font-body">
+		<div class="relative">
+			<section
+				class="bs-section-dragged"
+				x-data="{ mobileNavOpen: false }"
+			>
+				<nav
+					class="relative flex items-center justify-between px-6 py-6 text-black shadow-lg  dark:bg-gray-900 dark:text-gray-100 dark:text-white hover:text-red-600 bg-amber-500 rounded-br-xl rounded-bl-xl lg:rounded-none lg:shadow-none"
+				>
+					<a
+						class="text-3xl font-bold leading-none text-white"
+						href="#"
+					>
+						<img
+							class="h-12"
+							src="images/logo.png"
+							alt=""
+							width="auto"
+						/>
+					</a>
+					<div class="lg:hidden">
+						<button
+							x-on:click="mobileNavOpen = !mobileNavOpen"
+							class="flex items-center p-3 text-gray-100"
+						>
+							<svg
+								class="block w-6 h-6 fill-current"
+								viewbox="0 0 20 20"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<title>Mobile menu</title>
+								<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+							</svg>
+						</button>
+					</div>
+					<ul
+						class="absolute hidden font-medium text-gray-100 transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 lg:flex lg:mx-auto lg:items-center lg:w-auto lg:space-x-6 dark:text-gray-100"
+					>
+						<li>
+							<a
+								class="text-sm hover:text-red-600"
+								href=""
+								style="cursor: pointer !important; user-select: none !important"
+								>Home</a
+							>
+						</li>
+						<li class="text-red-600">
+							<svg
+								class="w-4 h-4 current-fill"
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewbox="0 0 24 24"
+								stroke="currentColor"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
+								></path>
+							</svg>
+						</li>
+						<li>
+							<a
+								class="text-sm hover:text-red-600"
+								href="#about"
+								>About</a
+							>
+						</li>
+						<li class="text-red-600">
+							<svg
+								class="w-4 h-4 current-fill"
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewbox="0 0 24 24"
+								stroke="currentColor"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
+								></path>
+							</svg>
+						</li>
+						<li>
+							<a
+								class="text-sm hover:text-red-600"
+								href="#"
+								>Location</a
+							>
+						</li>
+						<li class="text-red-600">
+							<svg
+								class="w-4 h-4 current-fill"
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewbox="0 0 24 24"
+								stroke="currentColor"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
+								></path>
+							</svg>
+						</li>
+						<li>
+							<a
+								class="text-sm hover:text-red-600"
+								href="#"
+								>Specials</a
+							>
+						</li>
+					</ul>
+					<a
+						class="hidden px-6 py-2 text-sm font-bold text-white transition duration-200 bg-red-600 lg:inline-block rounded-l-xl rounded-t-xl hover:bg-red-700"
+						href="#"
+						>Order Online</a
+					>
+				</nav>
+				<div
+					:class="{ 'hidden': !mobileNavOpen }"
+					class="fixed top-0 bottom-0 left-0 z-50 hidden w-5/6 max-w-sm"
+				>
+					<div
+						x-on:click="mobileNavOpen = !mobileNavOpen"
+						class="fixed inset-0 bg-gray-100 opacity-25"
+					></div>
+					<nav
+						class="relative flex flex-col w-full h-full px-6 py-6 overflow-y-auto bg-white border-r"
+					>
+						<div class="flex items-center mb-8">
+							<a
+								class="mr-auto text-3xl font-bold leading-none"
+								href="#"
+							>
+								<img
+									class="h-10"
+									src="images/logo.png"
+									alt=""
+									width="auto"
+								/>
+							</a>
+							<button x-on:click="mobileNavOpen = !mobileNavOpen">
+								<svg
+									class="w-6 h-6 text-gray-400 cursor-pointer hover:text-gray-500"
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewbox="0 0 24 24"
+									stroke="currentColor"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M6 18L18 6M6 6l12 12"
+									></path>
+								</svg>
+							</button>
+						</div>
+						<div>
+							<ul>
+								<li class="mb-1">
+									<a
+										class="block p-4 text-sm font-semibold text-gray-400 rounded hover:bg-purple-50 hover:text-purple-600"
+										href="#"
+										>Home</a
+									>
+								</li>
+								<li class="mb-1">
+									<a
+										class="block p-4 text-sm font-semibold text-gray-400 rounded hover:bg-purple-50 hover:text-purple-600"
+										href="#"
+										>Menu</a
+									>
+								</li>
+								<li class="mb-1">
+									<a
+										class="block p-4 text-sm font-semibold text-gray-400 rounded hover:bg-purple-50 hover:text-purple-600"
+										href="#"
+										>Our Story</a
+									>
+								</li>
+								<li class="mb-1">
+									<a
+										class="block p-4 text-sm font-semibold text-gray-400 rounded hover:bg-purple-50 hover:text-purple-600"
+										href="#"
+										>Order Online</a
+									>
+								</li>
+							</ul>
+						</div>
+						<div class="mt-auto">
+							<div class="pt-6 removed">
+								<a
+									class="inline-block w-full px-6 py-2 mb-3 font-semibold leading-loose text-center text-white transition duration-200 bg-red-600 lg:mb-0 lg:mr-0 lg:w-full hover:bg-red-800 rounded-xl lg:rounded-br-none"
+									href="#"
+									>Create Account</a
+								>
+							</div>
+							<p class="my-4 text-xs text-center text-gray-400">
+								<span>© 2024 All rights reserved.</span>
+							</p>
+							<div class="text-center">
+								<a
+									class="inline-block px-1"
+									href="#"
+								>
+									<img
+										src="atis-assets/social/facebook-purple.svg"
+										alt=""
+									/>
+								</a>
+								<a
+									class="inline-block px-1"
+									href="#"
+								>
+									<img
+										src="atis-assets/social/twitter-purple.svg"
+										alt=""
+									/>
+								</a>
+								<a
+									class="inline-block px-1"
+									href="#"
+								>
+									<img
+										src="atis-assets/social/instagram-purple.svg"
+										alt=""
+									/>
+								</a>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</section>
 
+			<section
+				class="relative bg-gray-50 dark:bg-gray-900"
+				x-data="{ mobileNavOpen: false }"
+			>
+				<div class="relative z-10 pt-12 pb-10 lg:pt-20 lg:pb-8">
+					<div class="container px-4 mx-auto">
+						<div class="flex flex-wrap -mx-4">
+							<div class="flex items-center w-full px-4 mb-12 lg:w-1/2 lg:mb-0">
+								<div class="w-full text-center lg:text-left">
+									<div class="max-w-md mx-auto lg:mx-0"></div>
+									<div class="max-w-sm max-w-md mx-auto lg:mx-0">
+										<h2
+											class="mb-3 text-4xl font-bold text-black lg:text-5xl font-heading dark:text-white"
+										>
+											<span class="w-full text-red-600">Cotijas</span> <br />
+											<span class="text-black dark:text-white">
+												Mexican Grill <br />
+												&amp; Seafood
+											</span>
+										</h2>
+										<div class="flex flex-wrap mb-4 -mx-4 md:mb-0">
+											<div class="w-full px-2 mb-2 md:w-1/2 md:mb-0">
+												<p
+													class="mb-4 leading-loose text-gray-400 dark:text-gray-100 lg:mb-6"
+												>
+													3595 Fairmount Ave <br />
+													San Diego, CA, 92105
+												</p>
+											</div>
+											<div class="w-full px-2 mb-4 md:w-1/2 md:mb-0">
+												<p
+													class="mb-0 mb-4 leading-loose text-gray-400 dark:text-gray-100"
+												>
+													Mon - Thu: 8am - 10pm <br />
+													Fri - Sun: 8am - 11pm
+												</p>
+											</div>
+										</div>
+										<div class="justify-center text-center">
+											<a
+												class="inline-block w-full px-6 py-2 mb-3 font-semibold leading-loose text-center text-white transition duration-200 bg-red-600 lg:mb-0 lg:mr-0 lg:w-full hover:bg-red-800 rounded-xl lg:rounded-br-none"
+												href="#"
+												>Order Online</a
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="w-full px-4 lg:w-1/2">
+								<div class="flex flex-wrap lg:mb-4 lg:ml-6">
+									<img
+										class="object-cover w-full h-64 p-2 md:w-1/2 lg:w-1/3 rounded-4xl lg:rounded-br-none"
+										src="images/Camarones-a-la-diabla-jpg-1723801184194.webp"
+										alt=""
+									/>
+									<img
+										class="hidden object-cover w-full h-64 p-2 md:w-1/2 lg:w-2/3 rounded-4xl lg:rounded-bl-none sm:block"
+										src="images/square-PXL-20240726-235637047-MP-2000x.jpg"
+										alt=""
+									/>
+								</div>
+								<div class="flex flex-wrap lg:mb-4 lg:mr-6">
+									<img
+										class="object-cover w-full h-64 p-2 md:w-1/2 lg:w-2/3 rounded-4xl lg:rounded-br-none"
+										src="images/Beer-buckets.jpg"
+										alt=""
+									/>
+									<img
+										class="object-cover w-full h-64 p-2 md:w-1/2 lg:w-1/3 rounded-4xl lg:rounded-bl-none"
+										src="images/Large-birria-tacos.jpg"
+										alt=""
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<img
+					class="absolute inset-0 hidden w-full lg:block dark:lg:hidden"
+					src="atis-assets/background/lines.svg"
+					alt=""
+				/>
+				<div
+					:class="{ 'hidden': !mobileNavOpen }"
+					class="fixed top-0 bottom-0 left-0 z-50 hidden w-5/6 max-w-sm"
+				>
+					<div
+						x-on:click="mobileNavOpen = !mobileNavOpen"
+						class="fixed inset-0 bg-gray-800 opacity-25"
+					></div>
+					<nav
+						class="relative flex flex-col w-full h-full px-6 py-6 overflow-y-auto bg-white border-r"
+					>
+						<div class="flex items-center mb-8">
+							<a
+								class="mr-auto text-3xl font-bold leading-none"
+								href="#"
+							>
+								<img
+									class="h-10"
+									src="atis-assets/logo/atis/atis-mono-black.svg"
+									alt=""
+									width="auto"
+								/>
+							</a>
+							<button x-on:click="mobileNavOpen = !mobileNavOpen">
+								<svg
+									class="w-6 h-6 text-gray-400 cursor-pointer hover:text-gray-500"
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewbox="0 0 24 24"
+									stroke="currentColor"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M6 18L18 6M6 6l12 12"
+									></path>
+								</svg>
+							</button>
+						</div>
+						<div>
+							<ul>
+								<li class="mb-1">
+									<a
+										class="block p-4 text-sm font-semibold text-gray-400 rounded hover:bg-green-50 hover:text-green-600"
+										href="#"
+										>Start</a
+									>
+								</li>
+								<li class="mb-1">
+									<a
+										class="block p-4 text-sm font-semibold text-gray-400 rounded hover:bg-green-50 hover:text-green-600"
+										href="#"
+										>About Us</a
+									>
+								</li>
+								<li class="mb-1">
+									<a
+										class="block p-4 text-sm font-semibold text-gray-400 rounded hover:bg-green-50 hover:text-green-600"
+										href="#"
+										>Services</a
+									>
+								</li>
+								<li class="mb-1">
+									<a
+										class="block p-4 text-sm font-semibold text-gray-400 rounded hover:bg-green-50 hover:text-green-600"
+										href="#"
+										>Platform</a
+									>
+								</li>
+								<li class="mb-1">
+									<a
+										class="block p-4 text-sm font-semibold text-gray-400 rounded hover:bg-green-50 hover:text-green-600"
+										href="#"
+										>Testimonials</a
+									>
+								</li>
+							</ul>
+						</div>
+						<div class="mt-auto">
+							<div class="pt-6">
+								<a
+									class="block px-4 py-3 mb-3 text-xs font-semibold leading-none leading-loose text-center bg-gray-50 hover:bg-gray-100 rounded-l-xl rounded-t-xl"
+									href="#"
+									>Sign In</a
+								><a
+									class="block px-4 py-3 mb-2 text-xs font-semibold leading-loose text-center text-white bg-green-600 hover:bg-green-700 rounded-l-xl rounded-t-xl"
+									href="#"
+									>Sign Up</a
+								>
+							</div>
+							<p class="my-4 text-xs text-center text-gray-400">
+								<span>Cotijas © 2024 All rights reserved.</span>
+							</p>
+							<div class="text-center">
+								<a
+									class="inline-block px-1"
+									href="#"
+								>
+									<img
+										src="atis-assets/social/facebook.svg"
+										alt=""
+									/>
+								</a>
+								<a
+									class="inline-block px-1"
+									href="#"
+								>
+									<img
+										src="atis-assets/social/twitter.svg"
+										alt=""
+									/>
+								</a>
+								<a
+									class="inline-block px-1"
+									href="#"
+								>
+									<img
+										src="atis-assets/social/instagram.svg"
+										alt=""
+									/>
+								</a>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</section>
+
+			<section
+				id="about"
+				class="py-10 pt-10 pb-20 dark:bg-gray-900 lg:py-20 bg-gray-50"
+			>
+				<div class="container px-4 mx-auto">
+					<div class="flex flex-wrap items-center justify-center mx-auto">
+						<div class="order-1 w-full px-4 lg:w-1/2 lg:order-0">
+							<h2
+								class="mb-6 font-mono text-4xl text-left text-black md:text-5xl dark:text-white font-heading md:text-center"
+							>
+								Welcome to Cotijas Mexican Grill and Seafood
+							</h2>
+							<p class="mb-8 leading-loose text-gray-500 dark:text-gray-100">
+								As a family owned restaurant in San Diego, Cotijas offers a
+								dynamic and authentic dining experience for lovers of Mexican
+								cuisine. Our menu features a wide selection of traditional
+								Mexican dishes, including tacos, burritos, fajitas, and
+								enchiladas, as well as fresh seafood dishes such as ceviche,
+								fish tacos, and shrimp cocktails. Each dish is prepared using
+								only the freshest ingredients, sourced from local suppliers
+								whenever possible.
+							</p>
+							<p class="mb-8 leading-loose text-gray-500 dark:text-gray-100">
+								At Cotijas, we pride ourselves on providing exceptional customer
+								service and creating a welcoming environment for families and
+								friends to gather and enjoy a delicious meal. Our restaurant is
+								decorated with vibrant colors and traditional Mexican
+							</p>
+							<span
+								class="justify-center inline-block w-full px-6 py-2 font-bold leading-loose text-center text-white transition duration-200 bg-red-600 hover:bg-red-700 rounded-xl lg:rounded-br-none"
+								href="#"
+								>Order Now</span
+							>
+						</div>
+						<div
+							class="hidden w-full px-4 mb-8 lg:w-1/2 order-0 lg:order-1 lg:mb-0 lg:block"
+						>
+							<img
+								src="images/square-PXL-20240726-235637047-MP-2000x.jpg"
+								alt=""
+								class="hidden object-cover rounded-4xl lg:rounded-bl-none lg:block"
+							/>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="relative">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="100%"
+					height="100%"
+					preserveaspectratio="none"
+					class="absolute top-0 left-0"
+					style="z=-1;"
+				>
+					<defs>
+						<pattern
+							id="pattern"
+							width="32"
+							height="64"
+							patternunits="userSpaceOnUse"
+						>
+							<path
+								d="M0 28h20V16h-4v8H4V4h28v28h-4V8H8v12h4v-8h12v20H0v-4zm12 8h20v4H16v24H0v-4h12V36zm16 12h-4v12h8v4H20V44h12v12h-4v-8zM0 36h8v20H0v-4h4V40H0v-4z"
+								class="fill-red-600 dark:fill-red-300"
+								fill-opacity="0.2"
+								fill-rule="evenodd"
+							></path>
+						</pattern>
+					</defs>
+					<rect
+						width="100%"
+						height="100%"
+						class="fill-amber-500 dark:fill-[#111827]"
+					></rect>
+					<rect
+						width="100%"
+						height="100%"
+						fill="url(#pattern)"
+					></rect>
+				</svg>
+				<div class="container py-4 mx-auto lg:py-8">
+					<div
+						class="justify-center w-full h-full max-w-screen-lg px-4 pb-6 mx-auto my-0 overflow-hidden border-none lg:w-3/4"
+					>
+						<a
+							href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2048.2222241727227!2d-117.10182485206931!3d32.74575493125262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9541492b869ab%3A0x88e5ef22dc35c99c!2sCotija's%20Mex%20Grill%20and%20Seafood!5e0!3m2!1sen!2sus!4v1691640682123!5m2!1sen!2sus"
+							rel="nofollow noreferer"
+							class="justify-center w-3/4 h-full max-w-screen-lg px-2 pb-6 mx-auto my-0 overflow-hidden rounded-3xl"
+							style="
+								box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+								filter: drop-shadow(rgba(0, 0, 0, 0.6) 2px 2px 4px);
+							"
+						>
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2048.2222241727227!2d-117.10182485206931!3d32.74575493125262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9541492b869ab%3A0x88e5ef22dc35c99c!2sCotija's%20Mex%20Grill%20and%20Seafood!5e0!3m2!1sen!2sus!4v1691640682123!5m2!1sen!2sus"
+								loading="lazy"
+								width="100%"
+								height="100%"
+								class="block w-full h-full p-0 mx-auto mt-6 mb-6 align-middle border-0 border-gray-200 border-solid rounded-3xl max-h-96"
+								style="height: 50vh"
+							></iframe>
+							<div
+								class="flex items-center p-5 border-0 bg-white dark:bg-[#111827] rounded-3xl border-gray-200 border-solid"
+							>
+								<i
+									class="p-5 mr-5 italic border-0 border-gray-200 border-solid rounded-xl bg-zinc-100 dark:bg-zinc-300"
+								>
+									<svg
+										width="28"
+										height="28"
+										viewbox="0 0 28 28"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+										class="block italic align-middle border-0 border-gray-200 border-solid"
+									>
+										<path
+											d="M14 1.75C11.4482 1.75301 9.00181 2.76804 7.19742 4.57242C5.39304 6.37681 4.37801 8.82322 4.375 11.375C4.37194 13.4603 5.05311 15.4891 6.314 17.15C6.314 17.15 6.5765 17.4956 6.61938 17.5455L14 26.25L21.3841 17.5411C21.4226 17.4948 21.686 17.15 21.686 17.15L21.6869 17.1474C22.9471 15.4872 23.628 13.4594 23.625 11.375C23.622 8.82322 22.607 6.37681 20.8026 4.57242C18.9982 2.76804 16.5518 1.75301 14 1.75ZM14 14.875C13.3078 14.875 12.6311 14.6697 12.0555 14.2851C11.4799 13.9006 11.0313 13.3539 10.7664 12.7144C10.5015 12.0749 10.4322 11.3711 10.5673 10.6922C10.7023 10.0133 11.0356 9.38961 11.5251 8.90013C12.0146 8.41064 12.6383 8.0773 13.3172 7.94225C13.9961 7.8072 14.6999 7.87651 15.3394 8.14142C15.9789 8.40633 16.5256 8.85493 16.9101 9.4305C17.2947 10.0061 17.5 10.6828 17.5 11.375C17.4988 12.3029 17.1297 13.1925 16.4736 13.8486C15.8175 14.5047 14.9279 14.8738 14 14.875Z"
+											fill="#FD2F25"
+											class="italic border-0 border-gray-200 border-solid"
+										></path>
+									</svg>
+								</i>
+								<span
+									class="font-medium text-black border-0 border-gray-200 border-solid dark:text-white"
+									>3695 Fairmount Ave, San Diego, CA 92105</span
+								>
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<section
+				id="featured-specials"
+				class="pt-12 m-auto leading-6 text-gray-900 bg-white dark:text-gray-100 dark:bg-gray-900"
+			>
+				<h3
+					class="justify-start p-5 mx-5 mt-0 mb-5 font-mono text-4xl leading-loose text-center text-gray-800 lg:mx-40 lg:px-20 md:mx-20 md:px-10 dark:text-white font-heading"
+					style="
+						animation-fill-mode: both;
+						animation-duration: 1000ms;
+						animation-delay: 0ms;
+						animation-iteration-count: 1;
+						opacity: 1;
+						animation-name: react-reveal-66772924826895-1;
+					"
+				>
+					Featured Specials
+				</h3>
+				<div
+					class="pb-10 overflow-x-scroll leading-6 text-gray-900 opacity-100 bg-red-600 pt-10 dark:bg-[#111827]"
+					style="
+						animation-fill-mode: both;
+						animation-duration: 1000ms;
+						animation-delay: 0ms;
+						animation-iteration-count: 1;
+						opacity: 1;
+						animation-name: react-reveal-66772924826895-1;
+					"
+				>
+					<div class="flex ml-10 text-gray-900 flex-nowrap lg:ml-40 md:ml-20">
+						<div class="inline-block px-3">
+							<div
+								id="card"
+								class="w-64 h-auto max-w-xs overflow-hidden duration-300 ease-in-out bg-white rounded-lg"
+								style="
+									box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+									transition-property: box-shadow;
+								"
+							>
+								<img
+									src="images/Large-birria-tacos.jpg"
+									alt="featured special 1"
+									class="block w-full h-auto max-w-full align-middle rounded-t-lg"
+								/>
+								<div class="w-full px-5 mx-auto my-5 font-bold text-center">
+									<p class="mx-0 mt-0 mb-3">Featured Food 1</p>
+									<p class="mx-0 mt-0 mb-4 text-emerald-800">$9.99</p>
+									<p class="m-0">
+										Ultrices mi tempus imperdiet nulla malesuada. Nec ultrices
+										dui sapien eget mi proin sed libero. Orci nulla pellentesque
+										dignissim enim sit amet venenatis.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="inline-block px-3">
+							<div
+								id="card"
+								class="w-64 h-auto max-w-xs overflow-hidden duration-300 ease-in-out bg-white rounded-lg"
+								style="
+									box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+									transition-property: box-shadow;
+								"
+							>
+								<img
+									src="images/Camarones-a-la-diabla-jpg-1723801184194.webp"
+									alt="featured special 1"
+									class="block w-full h-auto max-w-full align-middle rounded-t-lg"
+								/>
+								<div class="w-full px-5 mx-auto my-5 font-bold text-center">
+									<p class="mx-0 mt-0 mb-3">Featured Food 1</p>
+									<p class="mx-0 mt-0 mb-4 text-emerald-800">$9.99</p>
+									<p class="m-0">
+										Ultrices mi tempus imperdiet nulla malesuada. Nec ultrices
+										dui sapien eget mi proin sed libero. Orci nulla pellentesque
+										dignissim enim sit amet venenatis.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="inline-block px-3">
+							<div
+								id="card"
+								class="w-64 h-auto max-w-xs overflow-hidden duration-300 ease-in-out bg-white rounded-lg"
+								style="
+									box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+									transition-property: box-shadow;
+								"
+							>
+								<img
+									src="images/Large-birria-tacos.jpg"
+									alt="featured special 1"
+									class="block w-full h-auto max-w-full align-middle rounded-t-lg"
+								/>
+								<div class="w-full px-5 mx-auto my-5 font-bold text-center">
+									<p class="mx-0 mt-0 mb-3">Featured Food 1</p>
+									<p class="mx-0 mt-0 mb-4 text-emerald-800">$9.99</p>
+									<p class="m-0">
+										Ultrices mi tempus imperdiet nulla malesuada. Nec ultrices
+										dui sapien eget mi proin sed libero. Orci nulla pellentesque
+										dignissim enim sit amet venenatis.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="inline-block px-3">
+							<div
+								id="card"
+								class="w-64 h-auto max-w-xs overflow-hidden duration-300 ease-in-out bg-white rounded-lg"
+								style="
+									box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+									transition-property: box-shadow;
+								"
+							>
+								<img
+									src="images/Beer-buckets.jpg"
+									alt="featured special 1"
+									class="block w-full h-auto max-w-full align-middle rounded-t-lg"
+								/>
+								<div class="w-full px-5 mx-auto my-5 font-bold text-center">
+									<p class="mx-0 mt-0 mb-3">Featured Food 1</p>
+									<p class="mx-0 mt-0 mb-4 text-emerald-800">$9.99</p>
+									<p class="m-0">
+										Ultrices mi tempus imperdiet nulla malesuada. Nec ultrices
+										dui sapien eget mi proin sed libero. Orci nulla pellentesque
+										dignissim enim sit amet venenatis.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="inline-block px-3">
+							<div
+								id="card"
+								class="w-64 h-auto max-w-xs overflow-hidden duration-300 ease-in-out bg-white rounded-lg"
+								style="
+									box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+									transition-property: box-shadow;
+								"
+							>
+								<img
+									src="images/Large-birria-tacos.jpg"
+									alt="featured special 1"
+									class="block w-full h-auto max-w-full align-middle rounded-t-lg"
+								/>
+								<div class="w-full px-5 mx-auto my-5 font-bold text-center">
+									<p class="mx-0 mt-0 mb-3">Featured Food 1</p>
+									<p class="mx-0 mt-0 mb-4 text-emerald-800">$9.99</p>
+									<p class="m-0">
+										Ultrices mi tempus imperdiet nulla malesuada. Nec ultrices
+										dui sapien eget mi proin sed libero. Orci nulla pellentesque
+										dignissim enim sit amet venenatis.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="inline-block px-3">
+							<div
+								id="card"
+								class="w-64 h-auto max-w-xs overflow-hidden duration-300 ease-in-out bg-white rounded-lg"
+								style="
+									box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+									transition-property: box-shadow;
+								"
+							>
+								<img
+									src="images/Camarones-a-la-diabla-jpg-1723801184194.webp"
+									alt="featured special 1"
+									class="block w-full h-auto max-w-full align-middle rounded-t-lg"
+								/>
+								<div class="w-full px-5 mx-auto my-5 font-bold text-center">
+									<p class="mx-0 mt-0 mb-3">Featured Food 1</p>
+									<p class="mx-0 mt-0 mb-4 text-emerald-800">$9.99</p>
+									<p class="m-0">
+										Ultrices mi tempus imperdiet nulla malesuada. Nec ultrices
+										dui sapien eget mi proin sed libero. Orci nulla pellentesque
+										dignissim enim sit amet venenatis.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="inline-block px-3">
+							<div
+								id="card"
+								class="w-64 h-auto max-w-xs overflow-hidden duration-300 ease-in-out bg-white rounded-lg"
+								style="
+									box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+									transition-property: box-shadow;
+								"
+							>
+								<img
+									src="images/Beer-buckets.jpg"
+									alt="featured special 1"
+									class="block w-full h-auto max-w-full align-middle rounded-t-lg"
+								/>
+								<div class="w-full px-5 mx-auto my-5 font-bold text-center">
+									<p class="mx-0 mt-0 mb-3">Featured Food 1</p>
+									<p class="mx-0 mt-0 mb-4 text-emerald-800">$9.99</p>
+									<p class="m-0">
+										Ultrices mi tempus imperdiet nulla malesuada. Nec ultrices
+										dui sapien eget mi proin sed libero. Orci nulla pellentesque
+										dignissim enim sit amet venenatis.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="inline-block px-3">
+							<div
+								id="card"
+								class="w-64 h-auto max-w-xs overflow-hidden duration-300 ease-in-out bg-white rounded-lg"
+								style="
+									box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+									transition-property: box-shadow;
+								"
+							>
+								<img
+									src="images/Large-birria-tacos.jpg"
+									alt="featured special 1"
+									class="block w-full h-auto max-w-full align-middle rounded-t-lg"
+								/>
+								<div class="w-full px-5 mx-auto my-5 font-bold text-center">
+									<p class="mx-0 mt-0 mb-3">Featured Food 1</p>
+									<p class="mx-0 mt-0 mb-4 text-emerald-800">$9.99</p>
+									<p class="m-0">
+										Ultrices mi tempus imperdiet nulla malesuada. Nec ultrices
+										dui sapien eget mi proin sed libero. Orci nulla pellentesque
+										dignissim enim sit amet venenatis.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<div class="skew skew-top mr-for-radius">
+					<svg
+						class="w-full h-8 md:h-12 lg:h-20 text-gray-50"
+						viewbox="0 0 10 10"
+						preserveaspectratio="none"
+					>
+						<polygon
+							fill="currentColor"
+							points="0 0 10 10 0 10"
+						></polygon>
+					</svg>
+				</div>
+				<div class="skew skew-top ml-for-radius">
+					<svg
+						class="w-full h-8 md:h-12 lg:h-20 text-gray-50"
+						viewbox="0 0 10 10"
+						preserveaspectratio="none"
+					>
+						<polygon
+							fill="currentColor"
+							points="0 10 10 0 10 10"
+						></polygon>
+					</svg>
+				</div>
+				<div class="py-20 radius-for-skewed dark:bg-gray-900 bg-amber-500">
+					<div class="max-w-md mx-auto text-center">
+						<a
+							class="inline-block mx-auto mb-6 text-3xl font-bold leading-none"
+							href="#"
+						>
+							<img
+								class="h-12"
+								src="images/logo.png"
+								alt=""
+								width="auto"
+							/>
+						</a>
+						<p class="mb-6 text-sm font-semibold text-white dark:text-gray-100">
+							Cotijas Mexican Grill &amp; Seafood © 2024. All rights reserved.
+						</p>
+						<div class="flex justify-center space-x-2 lg:space-x-4">
+							<a href="#">
+								<img
+									src="atis-assets/social/facebook-purple.svg"
+									alt=""
+								/>
+							</a>
+							<a href="#">
+								<img
+									src="atis-assets/social/twitter-purple.svg"
+									alt=""
+								/>
+							</a>
+							<a href="#">
+								<img
+									src="atis-assets/social/instagram-purple.svg"
+									alt=""
+								/>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="skew skew-bottom mr-for-radius">
+					<svg
+						class="w-full h-8 md:h-12 lg:h-20 text-gray-50"
+						viewbox="0 0 10 10"
+						preserveaspectratio="none"
+					>
+						<polygon
+							fill="currentColor"
+							points="0 0 10 0 0 10"
+						></polygon>
+					</svg>
+				</div>
+				<div class="skew skew-bottom ml-for-radius">
+					<svg
+						class="w-full h-8 md:h-12 lg:h-20 text-gray-50"
+						viewbox="0 0 10 10"
+						preserveaspectratio="none"
+					>
+						<polygon
+							fill="currentColor"
+							points="0 0 10 0 10 10"
+						></polygon>
+					</svg>
+				</div>
+			</section>
+		</div>
+	</body>
+</html>
